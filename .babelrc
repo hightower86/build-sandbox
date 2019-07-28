@@ -2,10 +2,10 @@
   "presets": [[
     "@babel/env",
     {
+      "corejs": 3, //'it's a version of library
+      "useBuiltIns": "usage",
       "debug": true,
-      // "targets": [
-      //   "",
-      // ]
+      "modules": false,
     }
   ]],
   "plugins": [
